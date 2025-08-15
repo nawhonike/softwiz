@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLIPAS Pharmacy - Your Trusted Healthcare Partner in Tanzania</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header with Logo -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo.jpg" alt="OLIPAS Pharmacy Logo" class="h-12 w-12 rounded-full">
+                <div>
+                    <h1 class="text-2xl font-bold text-[#011f4b]">OLIPAS PHARMACY</h1>
+                    <p class="text-sm text-gray-600">Trusted Healthcare in Tanzania</p>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-phone text-[#011f4b]"></i>
+                    <span>+255 123 456 789</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-map-marker-alt text-[#011f4b]"></i>
+                    <span>Dar es Salaam, Tanzania</span>
+                </div>
+            </div>
+            <button class="md:hidden text-[#011f4b]">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="flex flex-col md:flex-row">
+        <!-- Vertical Menu -->
+        <nav class="bg-[#011f4b] text-white vertical-menu w-full md:w-64">
+            <div class="p-4">
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-home mr-2"></i> Home</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-prescription-bottle-alt mr-2"></i> Prescription Drugs</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-pills mr-2"></i> Over-the-Counter</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-heartbeat mr-2"></i> Health & Wellness</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-baby mr-2"></i> Baby Care</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-first-aid mr-2"></i> First Aid</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-tooth mr-2"></i> Oral Care</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-eye mr-2"></i> Vision Care</a></li>
+                    </ul>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-syringe mr-2"></i> Vaccinations</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-user-md mr-2"></i> Health Consultations</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-prescription mr-2"></i> Online Prescriptions</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-truck mr-2"></i> Home Delivery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-info-circle mr-2"></i> About Us</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-envelope mr-2"></i> Contact</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-blog mr-2"></i> Health Blog</a></li>
+                        <li><a href="#" class="block py-2 px-3 hover:bg-blue-800 rounded transition"><i class="fas fa-question-circle mr-2"></i> FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1">
+            <!-- Hero Slider -->
+            <div class="hero-slider relative">
+                <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center">
+                        <div class="container mx-auto px-4 text-white">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Your Health is Our Priority</h2>
+                            <p class="text-xl mb-6">Quality medications and healthcare products at affordable prices</p>
+                            <button class="bg-[#011f4b] hover:bg-blue-900 text-white font-bold py-3 px-6 rounded-lg transition">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center">
+                        <div class="container mx-auto px-4 text-white">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Professional Pharmacists</h2>
+                            <p class="text-xl mb-6">Expert advice and personalized care for your health needs</p>
+                            <button class="bg-[#011f4b] hover:bg-blue-900 text-white font-bold py-3 px-6 rounded-lg transition">Consult Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80');">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center">
+                        <div class="container mx-auto px-4 text-white">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Home Delivery Service</h2>
+                            <p class="text-xl mb-6">Get your medications delivered to your doorstep</p>
+                            <button class="bg-[#011f4b] hover:bg-blue-900 text-white font-bold py-3 px-6 rounded-lg transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
+                    <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none active"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"></button>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <section class="bg-white py-12">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center text-[#011f4b] mb-12">Why Choose OLIPAS Pharmacy?</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
+                            <div class="bg-[#011f4b] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-check-circle text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Quality Products</h3>
+                            <p class="text-gray-600">We source only genuine medications from trusted manufacturers.</p>
+                        </div>
+                        <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
+                            <div class="bg-[#011f4b] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-user-md text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Expert Pharmacists</h3>
+                            <p class="text-gray-600">Our licensed pharmacists provide professional advice and guidance.</p>
+                        </div>
+                        <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
+                            <div class="bg-[#011f4b] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-truck text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Fast Delivery</h3>
+                            <p class="text-gray-600">Get your medications delivered quickly to your home or office.</p>
+                        </div>
+                        <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
+                            <div class="bg-[#011f4b] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-hand-holding-usd text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Affordable Prices</h3>
+                            <p class="text-gray-600">Competitive pricing to make healthcare accessible to everyone.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular Products -->
+            <section class="bg-gray-50 py-12">
+                <div class="container mx-auto px-4">
+                    <div class="flex justify-between items-center mb-8">
+                        <h2 class="text-3xl font-bold text-[#011f4b]">Popular Products</h2>
+                        <a href="#" class="text-[#011f4b] font-semibold hover:underline">View All Products <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <!-- Product 1 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="vita.jpeg" alt="Pain Reliever" class="w-full h-48 object-cover">
+                                <span class="absolute top-2 right-2 bg-[#011f4b] text-white text-xs font-bold px-2 py-1 rounded">NEW</span>
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold mb-1">Pain Relief Tablets</h3>
+                                <p class="text-gray-600 text-sm mb-2">Effective relief from headaches and body pains</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-[#011f4b]">TZS 5,000</span>
+                                    <button class="bg-[#011f4b] hover:bg-blue-900 text-white px-3 py-1 rounded text-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <div class="relative">
+                                <img src="pain.jpeg" alt="Multivitamin" class="w-full h-48 object-cover">
+                                <span class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">-15%</span>
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold mb-1">Daily Multivitamin</h3>
+                                <p class="text-gray-600 text-sm mb-2">Essential vitamins for overall health</p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="font-bold text-[#011f4b]">TZS 8,500</span>
+                                        <span class="text-gray-400 text-sm line-through ml-2">TZS 10,000</span>
+                                    </div>
+                                    <button class="bg-[#011f4b] hover:bg-blue-900 text-white px-3 py-1 rounded text-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="vita.jpeg" alt="Cold Remedy" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold mb-1">Cold & Flu Syrup</h3>
+                                <p class="text-gray-600 text-sm mb-2">Relieves cold and flu symptoms</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-[#011f4b]">TZS 6,200</span>
+                                    <button class="bg-[#011f4b] hover:bg-blue-900 text-white px-3 py-1 rounded text-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 4 -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                            <img src="kit.jpeg" alt="First Aid Kit" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-lg font-semibold mb-1">Family First Aid Kit</h3>
+                                <p class="text-gray-600 text-sm mb-2">Essential supplies for emergencies</p>
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-[#011f4b]">TZS 25,000</span>
+                                    <button class="bg-[#011f4b] hover:bg-blue-900 text-white px-3 py-1 rounded text-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Health Services -->
+            <section class="py-12 bg-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center text-[#011f4b] mb-12">Our Health Services</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-gray-50 rounded-lg p-6 flex items-start">
+                            <div class="bg-[#011f4b] text-white p-4 rounded-full mr-4">
+                                <i class="fas fa-syringe text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Vaccination Services</h3>
+                                <p class="text-gray-600 mb-3">We provide a wide range of vaccinations including flu shots, travel vaccines, and childhood immunizations.</p>
+                                <a href="#" class="text-[#011f4b] font-semibold hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-6 flex items-start">
+                            <div class="bg-[#011f4b] text-white p-4 rounded-full mr-4">
+                                <i class="fas fa-heartbeat text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Health Screening</h3>
+                                <p class="text-gray-600 mb-3">Comprehensive health screenings including blood pressure, cholesterol, diabetes, and more.</p>
+                                <a href="#" class="text-[#011f4b] font-semibold hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-6 flex items-start">
+                            <div class="bg-[#011f4b] text-white p-4 rounded-full mr-4">
+                                <i class="fas fa-prescription text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Prescription Management</h3>
+                                <p class="text-gray-600 mb-3">We help manage your medications, provide refill reminders, and offer medication synchronization.</p>
+                                <a href="#" class="text-[#011f4b] font-semibold hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-6 flex items-start">
+                            <div class="bg-[#011f4b] text-white p-4 rounded-full mr-4">
+                                <i class="fas fa-smoking-ban text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Smoking Cessation</h3>
+                                <p class="text-gray-600 mb-3">Personalized programs to help you quit smoking with counseling and nicotine replacement therapy.</p>
+                                <a href="#" class="text-[#011f4b] font-semibold hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="py-12 bg-gray-50">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center text-[#011f4b] mb-12">What Our Customers Say</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="text-yellow-400 mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-gray-600 text-sm">2 days ago</span>
+                            </div>
+                            <p class="text-gray-700 mb-4">"The pharmacists at OLIPAS are incredibly knowledgeable and helpful. They took time to explain my medication and answer all my questions."</p>
+                            <div class="flex items-center">
+                                <img src="https://via.placeholder.com/40x40?text=User" alt="Customer" class="w-10 h-10 rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-semibold">Sarah J.</h4>
+                                    <p class="text-gray-600 text-sm">Dar es Salaam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="text-yellow-400 mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-gray-600 text-sm">1 week ago</span>
+                            </div>
+                            <p class="text-gray-700 mb-4">"I've been using their home delivery service for my chronic medications. It's reliable and saves me so much time. Highly recommended!"</p>
+                            <div class="flex items-center">
+                                <img src="https://via.placeholder.com/40x40?text=User" alt="Customer" class="w-10 h-10 rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-semibold">Michael K.</h4>
+                                    <p class="text-gray-600 text-sm">Mwanza</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="text-yellow-400 mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-gray-600 text-sm">3 weeks ago</span>
+                            </div>
+                            <p class="text-gray-700 mb-4">"Great selection of products at reasonable prices. The staff is friendly and the pharmacy is always clean and well-organized."</p>
+                            <div class="flex items-center">
+                                <img src="https://via.placeholder.com/40x40?text=User" alt="Customer" class="w-10 h-10 rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-semibold">Amina S.</h4>
+                                    <p class="text-gray-600 text-sm">Arusha</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="py-12 bg-[#011f4b] text-white">
+                <div class="container mx-auto px-4 text-center">
+                    <h2 class="text-3xl font-bold mb-4">Stay Updated with Health Tips</h2>
+                    <p class="text-xl mb-8 max-w-2xl mx-auto">Subscribe to our newsletter for health advice, special offers, and pharmacy updates.</p>
+                    <form class="max-w-md mx-auto flex">
+                        <input type="email" placeholder="Your email address" class="flex-1 px-4 py-3 rounded-l-lg focus:outline-none text-gray-800">
+                        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-[#011f4b] font-bold px-6 py-3 rounded-r-lg transition">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">OLIPAS PHARMACY</h3>
+                    <p class="mb-4">Your trusted healthcare partner in Tanzania, providing quality medications and professional services.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-yellow-400 transition">Home</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Products</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Services</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-yellow-400 transition">Prescription Filling</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Health Screenings</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Vaccinations</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Medication Therapy</a></li>
+                        <li><a href="#" class="hover:text-yellow-400 transition">Home Delivery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-yellow-400"></i>
+                            <span>123 Health Street, Dar es Salaam, Tanzania</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-yellow-400"></i>
+                            <span>+255 123 456 789</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-yellow-400"></i>
+                            <span>info@olipaspharmacy.co.tz</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3 text-yellow-400"></i>
+                            <span>Mon-Sat: 8:00 AM - 8:00 PM<br>Sun: 10:00 AM - 4:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-6 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2023 OLIPAS Pharmacy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
